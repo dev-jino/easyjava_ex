@@ -1,6 +1,6 @@
-package chapter09Problem;
+package thisisjavaCh09;
 
-public class chapter09Problem05 {
+public class Problem05 {
   public static void main(String[] args) {
     Action action = new Action() {
       @Override

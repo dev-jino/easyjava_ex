@@ -25,12 +25,15 @@ public class ListDemo {
     }
     System.out.println();
 
-    list.sort(new Comparator<String>() {
-      @Override
-      public int compare(String o1, String o2) {
-        return o1.length() - o2.length();
-      }
-    });
+//    list.sort(new Comparator<String>() {
+//      @Override
+//      public int compare(String o1, String o2) {
+//        return o1.length() - o2.length();
+//      }
+//    });
+    // 익명 클래스를 람다식으로 교체
+    list.sort((s1, s2) -> s1.length() - s2.length());
+    list.forEach((s1) -> System.out.print(s1 + "+ "));
     System.out.println(list);
 
     String[] animalArray = list.toArray(new String[0]);

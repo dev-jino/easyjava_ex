@@ -1,6 +1,6 @@
-package chapter09Problem;
+package thisisjavaCh09;
 
-public class chapter09Problem07 {
+public class Problem07 {
   public static void main(String[] args) {
     Chatting chatting = new Chatting();
     chatting.startChat("홍길동");

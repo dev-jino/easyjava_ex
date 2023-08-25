@@ -1,6 +1,6 @@
-package chapter09Problem;
+package thisisjavaCh09;
 
-public class chapter09Problem06 {
+public class Problem06 {
   public static void main(String[] args) {
     Anonymous anony = new Anonymous();
     anony.field.run();

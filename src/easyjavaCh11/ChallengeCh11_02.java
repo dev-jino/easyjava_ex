@@ -1,4 +1,4 @@
-package challengeCh11;
+package easyjavaCh11;
 
 import java.util.HashSet;
 import java.util.Iterator;

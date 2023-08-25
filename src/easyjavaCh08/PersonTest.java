@@ -1,4 +1,4 @@
-package challengeCh08;
+package easyjavaCh08;
 
 public class PersonTest {
   public static void main(String[] args) {

@@ -1,6 +1,6 @@
-package chapter09Problem;
+package thisisjavaCh09;
 
-public class chapter09Problem04 {
+public class Problem04 {
   public static void main(String[] args) {
     Car myCar = new Car();
     Car.Tire tire = myCar.new Tire();

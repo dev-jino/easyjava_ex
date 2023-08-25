@@ -1,4 +1,4 @@
-package challengeCh08;
+package easyjavaCh08;
 
 import java.util.Random;
 
